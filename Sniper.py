@@ -1,8 +1,11 @@
 from txns import TXN
-import argparse, math, sys, json, requests
+import argparse, sys, json
 from time import sleep
 from halo import Halo
 from style import style
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ascii = """
   ______               ___                _______                     
